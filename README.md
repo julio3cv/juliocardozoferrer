@@ -1,1 +1,110 @@
-# juliocardozoferrer
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julio Cardozo – Consultoría Comercial LATAM</title>
+  <meta name="description" content="Transformá tu estructura comercial con Julio Cardozo: reestructuración, Road to Market e IA aplicada. +15 años de experiencia en LATAM.">
+
+  <!-- Estilos base y animaciones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Scripts AOS y GA -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+    window.onload = () => AOS.init();
+  </script>
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+  <!-- Hero / Encabezado -->
+  <section id="hero" class="min-h-screen flex items-center justify-center bg-gray-50" data-aos="fade-up">
+    <div class="container mx-auto text-center px-6 md:px-0">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 text-blue-900">Transformá tu estructura comercial.<br>Potenciá tus ventas.<br>Liderá con estrategia.</h1>
+      <p class="text-lg md:text-xl mb-6">Julio Cardozo – Especialista en consultoría comercial, Road to Market y reestructuración de equipos de venta para pymes y multinacionales.</p>
+      <div class="space-x-4">
+        <a href="#contacto" class="bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded-full transition">Reservá una reunión</a>
+        <a href="#enfoque" class="border border-orange-500 text-orange-500 hover:bg-orange-100 py-2 px-4 rounded-full transition">Conocé mi enfoque</a>
+      </div>
+      <div class="mt-8">
+        <img src="foto-julio.jpg" alt="Julio Cardozo" class="mx-auto w-48 h-48 rounded-full object-cover">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre mí / Autoridad -->
+  <section id="autoridad" class="py-16" data-aos="fade-up">
+    <div class="container mx-auto px-6 md:px-0">
+      <h2 class="text-3xl font-semibold text-center mb-8">¿Quién soy y por qué las empresas me eligen?</h2>
+      <div class="max-w-4xl mx-auto text-lg leading-relaxed">
+        <p>Llevo más de 15 años ayudando a empresas de toda Latinoamérica a transformar sus áreas comerciales...</p>
+      </div>
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Visuales sugeridos -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Qué hago / Servicios -->
+  <section id="servicios" class="py-16 bg-gray-50" data-aos="fade-up">
+    <div class="container mx-auto px-6 md:px-0">
+      <h2 class="text-3xl font-semibold text-center mb-8">¿Qué puedo hacer por tu negocio?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+        <div class="bg-white p-6 rounded-xl shadow-md" data-aos="fade-up">
+          <h3 class="font-bold text-xl mb-2">🔧 Reestructuración Comercial</h3>
+          <p>Diagnóstico, rediseño organizacional y estructuras de venta efectivas.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md" data-aos="fade-up">
+          <h3 class="font-bold text-xl mb-2">🛠️ Road to Market</h3>
+          <p>Definimos rutas, roles, indicadores y modelo de ejecución comercial.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md" data-aos="fade-up">
+          <h3 class="font-bold text-xl mb-2">📊 Trade Marketing</h3>
+          <p>Planificación orientada al canal, punto de venta y resultados.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl shadow-md" data-aos="fade-up">
+          <h3 class="font-bold text-xl mb-2">🤖 Inteligencia Artificial</h3>
+          <p>Procesos más eficientes y decisiones más inteligentes para escalar ventas.</p>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="#casos" class="border border-orange-500 text-orange-500 hover:bg-orange-100 py-2 px-4 rounded-full transition">Ver casos de éxito</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Casos de éxito / Resultados -->
+  <section id="casos" class="py-16" data-aos="fade-up">
+    <div class="container mx-auto px-6 md:px-0 text-center">
+      <h2 class="text-3xl font-semibold mb-6">Lo que hicimos con otros, podemos hacerlo con vos</h2>
+      <p class="mb-8">Desde la organización comercial de una pyme alimenticia hasta la profesionalización del equipo de ventas de una multinacional...</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 rounded-lg shadow">+38% ventas en 6 meses</div>
+        <div class="bg-white p-4 rounded-lg shadow">-40% rotación de vendedores</div>
+        <div class="bg-white p-4 rounded-lg shadow">+20 puntos en cobertura de canal</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto / CTA final -->
+  <section id="contacto" class="py-16 bg-blue-900 text-white" data-aos="fade-up">
+    <div class="container mx-auto px-6 md:px-0 text-center">
+      <h2 class="text-3xl font-semibold mb-4">¿Querés llevar tu estructura comercial al siguiente nivel?</h2>
+      <p class="mb-8">Agendá una reunión de diagnóstico sin cargo. Hablemos de tu negocio, tus objetivos y cómo podemos trabajar juntos.</p>
+      <a href="https://calendly.com/julio-cardozo/diagnostico" class="bg-orange-500 hover:bg-orange-600 text-white py-2 px-6 rounded-full transition">Reservar una reunión</a>
+    </div>
+  </section>
+
+  <footer class="py-6 text-center text-sm text-gray-600">
+    <p>&copy; 2025 Julio Cardozo. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
